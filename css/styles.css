@@ -1,0 +1,174 @@
+:root {
+    --primary-color: #757575;
+    --secondary-color: #FFFFFF;
+    --title-color: #212121;
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --background-section: #F5F4FA;
+    --background-active-button: #188CE8;
+    --primary-background: #FFFFFF;
+    --secondary-background: #2F303A;
+    --accent-background: #2196F3;
+    --title-weight: 700;
+}
+
+body {
+    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    background-color: var(--primary-background);
+    color: var(--primary-color);
+}
+
+.logo-nav .link {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.logo,
+.examples,
+.team {
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: var(--title-weight);
+    color: var(--logo-color);
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.contacts .link {
+    color: var(--primary-color);
+}
+
+.navigation .link:hover,
+.contacts .link:hover,
+.navigation .link:focus,
+.contacts .link:focus,
+.contact-info .link:hover,
+.contact-info .link:focus {
+    color: var(--accent-color);
+}
+
+.logo-nav .current {
+    color: var(--accent-background);
+}
+
+.hero {
+    letter-spacing: 0.06em;
+    align-items: center;
+    text-align: center;
+}
+
+.hero,
+.logo-contacts {
+    background-color: var(--secondary-background);
+    color: var(--secondary-color);
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.hero-order {
+    font-weight: var(--title-weight);
+    font-size: 16px;
+    line-height: 1.9;
+    background-color: var(--accent-background);
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.hero-order:hover,
+.hero-order:focus {
+    background-color: var(--background-active-button);
+}
+
+.preference-title {
+    font-weight: var(--title-weight);
+    line-height: 1.1;
+    font-size: inherit;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.examples-title,
+.team-title {
+    font-weight: var(--title-weight);
+    font-size: 36px;
+    color: var(--title-color);
+}
+
+.team {
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: var(--background-section);
+}
+
+.team-member {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+.contact-info {
+    font-style: inherit;
+}
+
+.logo-contacts .link {
+    color: var(--secondary-color);
+}
+
+.logo-contacts [href^="mailto"],
+.logo-contacts [href^="tel"] {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.filter .click {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--title-color);
+    cursor: pointer;
+    text-align: center;
+}
+
+.filter .click:hover,
+.filter .click:focus {
+    background-color: var(--accent-background);
+    color: var(--secondary-color)
+}
+
+.project-title {
+    font-weight: var(--title-weight);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.project-filter {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--primary-color);
+}
