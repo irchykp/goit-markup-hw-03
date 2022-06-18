@@ -16,6 +16,7 @@
             --secondary-background: #2F303A;
             --accent-background: #2196F3;
             --title-weight: 700;
+            --list-gap: 30px;
         }
         
         body {
@@ -163,7 +164,7 @@
         
         .hero-title {
             margin: 0 auto;
-            width: 696px;
+            max-width: 696px;
             padding-top: 200px;
             margin-bottom: 30px;
             font-size: 44px;
@@ -173,7 +174,7 @@
         }
         
         .hero-order {
-            width: 200px;
+            max-width: 200px;
             padding: 10px 32px 10px 32px;
             margin-bottom: 200px;
             border: 1px solid transparent;
@@ -285,7 +286,7 @@
         }
         
         .projects .filter-box {
-            width: 611px;
+            max-width: 611px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 108px;
@@ -318,6 +319,14 @@
             color: var(--secondary-color)
         }
         
+        .project-box {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: calc(-1 * var(--list-gap));
+            margin-top: calc(-1 * var(--list-gap));
+            ;
+        }
+        
         .project-filter {
             font-size: 16px;
             line-height: 1.9;
@@ -326,8 +335,10 @@
         
         .projects-item {
             display: flex;
+            margin-left: var(--list-gap);
+            margin-top: var(--list-gap);
             flex-direction: column;
-            flex-basis: 370px;
+            flex-basis: calc((100%/3-var(--list-gap));
         }
         
         .content {
@@ -336,7 +347,7 @@
         }
         
         .item-info {
-            width: 322px;
+            max-width: 322px;
             margin: 20px 24px;
         }
         
