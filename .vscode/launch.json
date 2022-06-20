@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:\\Users\\roman\\Documents\\GitHub\\goit-markup-hw-03",
+            "url": "D:\\Iryna\\goit-markup-hw-03",
             "webRoot": "${workspaceFolder}"
         }
     ]
